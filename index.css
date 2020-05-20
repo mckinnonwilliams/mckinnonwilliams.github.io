@@ -1,0 +1,35 @@
+/*
+  McKinnon Williams
+  April 5th, 2020
+  Section AJ: TAs Wilson Tang and Wenxuan Liu
+
+  This is a stylesheet that contains the styles that are in index.html and photos.html.
+*/
+
+header {
+  width: 95%;
+}
+
+.img {
+  width: 90%;
+  padding: 10px;
+}
+
+
+#grid {
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.img img {
+  width: 100%;
+}
+
+#grid, .column {
+  display: flex;
+}
+
+
+.column {
+  flex-direction: column;
+}
